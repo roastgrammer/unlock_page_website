@@ -1,0 +1,36 @@
+/* show humberger and set hidden for two items  */
+nav {
+    padding:30px;
+}
+.brand {
+    position: relative;
+    bottom: 3px;
+    opacity: 0;
+    animation:navbrand .5s forwards ease;
+}
+@keyframes navbrand {
+    from {
+        opacity:0;
+    }to {
+        opacity:1;
+    }
+}
+.humberger {
+    display: inline-block;
+    margin-left: auto;
+    opacity:0;
+    animation:showhumberger .5s forwards ease;
+}
+@keyframes showhumberger {
+    from {
+        opacity:0;
+    }to {
+        opacity:1;
+    }
+}
+.humberger div{
+    visibility: visible;
+}
+.item .nav-item  , .lst-nv{
+    display: none;
+}

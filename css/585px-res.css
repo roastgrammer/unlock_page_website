@@ -1,0 +1,25 @@
+.cancel {
+    display:none;
+}
+.menu-of-humberger {
+    width: 100%;
+    margin: 3rem;
+    border-radius: 1px;
+    font-size: 1.5em;
+}
+.several-main {
+    line-height: 3;
+}
+.several-main h1 {
+    font-size: 1.5em;
+}
+.several-main p {
+    font-size: 1.5em;
+}
+.btn {
+    display: block;
+    margin:1rem 0;
+}
+.btn button {
+    margin: 1rem 0;;
+}

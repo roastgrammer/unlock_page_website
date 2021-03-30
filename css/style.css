@@ -1,0 +1,141 @@
+/* thigs that we need before every thing */
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    list-style: none;
+}
+body {
+    background:#6b26ff;
+    background-repeat : no-repeat;
+    height:100vh;
+    color:white;
+    font-family:Arial;
+}
+a {
+    text-decoration:none;
+    color:white;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding:30px 0;
+    width: 100%;
+    height: 80px;
+    background:#000;
+}
+.humberger {
+    cursor:pointer;
+}
+.humberger div {
+    width: 35px;
+    height: 2px;
+    background:white;
+    visibility: hidden;
+}
+.humberger div:not(:first-child) {
+    margin-top: 4px;
+}
+.item ul{
+    width: 100%;
+    display:flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 105px;
+    top: 4px;
+}
+.item ul li{
+    display: block;
+    margin: 0 1.5rem;
+}
+.item ul li a:hover {
+    position: relative;
+    bottom: 2px;
+}
+.lst-nv ul {
+    display:flex;
+    position: relative;
+    top:5px;
+}
+.lst-nv ul li:not(:first-child) {
+    margin:0 1rem;
+}
+.lst-nv ul li a {
+    text-decoration:underline;
+}
+.lst-nv ul li a:hover {
+    position: relative;
+    bottom: 2px;
+}
+.cancel {
+    width: 10%;
+    height: 45px;
+    display: block;
+    margin-left: auto;
+}
+.cancel p{
+    width: 30px;
+    height: 5px;
+    background:#fff;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 5px;
+    position: relative;
+    top:10px;
+    right: 10px;
+    cursor:pointer;
+}
+.cancel p:first-child {
+    transform: rotate(50deg);
+    position: relative;
+    top: 20px;
+}
+.cancel p:nth-child(2) {
+    transform:rotate(-50deg)
+}
+.menu-of-humberger {
+    outline:none;
+    border:none;
+    border-radius: 25px;
+    width: 60%;
+    height:auto;
+    background:#000;
+    display: block;
+    margin:8rem auto;
+    text-align:center;
+    font-size: 2em;
+    line-height: 3;
+    visibility: hidden;
+    position: absolute;
+}
+.menu-of-humberger ul li:not(:last-child){
+    border-bottom:1px solid white;
+}
+/* main */
+.several-main {
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    margin: 15rem 0;
+    line-height: 2;
+}
+.several-main p {
+    color:grey;
+}
+.several-main button {
+    width: 12rem;
+    height:4rem;
+    border-radius: 25px;
+    border:none;
+    outline:none;
+    background:#000;
+    color:white;
+}
+.btn  {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
